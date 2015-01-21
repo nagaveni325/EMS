@@ -53,4 +53,12 @@
         android:layout_below="@+id/textView3"
         android:layout_marginTop="38dp" />
 
+    <CalendarView
+        android:id="@+id/calendarView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="22dp" />
+
 </RelativeLayout>
