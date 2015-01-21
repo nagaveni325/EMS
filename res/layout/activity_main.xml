@@ -35,4 +35,22 @@
         android:layout_marginTop="72dp"
         android:text="RadioButton" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton1"
+        android:layout_marginTop="71dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioButton1"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="38dp" />
+
 </RelativeLayout>
